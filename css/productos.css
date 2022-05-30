@@ -43,9 +43,14 @@ nav{
 .header__enlace{
     text-decoration: none;
     color: #E9F1F7;
-    
+    transition: all .3s ease-in-out;
+    border-bottom: 3px solid #b5bcd300;
 }
 
+.header__enlace:hover{
+    border-bottom: 3px solid #ffd8fd94;
+    
+}
 
 /* Contenido de la pagina */
 
@@ -81,7 +86,11 @@ h1{
     background-color: rgba(228, 217, 255, 0.588)/*rgba(68, 17, 134, 0.4)*/;
     border: 2px solid rgba(236, 109, 236, 0.486);
     border-radius: 5px;
-    /*width: 30%;*/
+    transition: all .2s ease-in-out;
+}
+
+.section__article:hover{
+    transform: scale(1.02);
 }
 
 .section__article h2{

@@ -39,10 +39,14 @@ nav{
 .header__enlace{
     text-decoration: none;
     color: #E9F1F7;
-    
+    transition: all .3s ease-in-out;
+    border-bottom: 3px solid #b5bcd300;
 }
 
-
+.header__enlace:hover{
+    border-bottom: 3px solid #ffd8fd94;
+    
+}
 
 /* Contenido de la pagina */
 
