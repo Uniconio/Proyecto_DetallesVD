@@ -1,0 +1,168 @@
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* Fonts */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+/*header estilos*/
+
+header{
+    display: flex;
+    background-color: #b5bcd3d0;
+}
+
+nav{
+    width: 100%;
+    text-align: center;
+}
+
+.header{
+    display: flex;
+    justify-content:space-around;
+    align-items:flex-end;
+    align-content: center;
+    list-style: none;
+    font-family: 'Lobster Two', cursive;
+    margin-bottom: 0.2%;
+    font-size: 20px;
+}
+
+.header__enlace{
+    text-decoration: none;
+    color: #E9F1F7;
+    
+}
+
+
+/* Contenido de la pagina */
+
+body{
+    background-color: #D8E1FF;
+}
+
+h1{
+    text-align: center;
+    margin-top: 2%;
+    font-family: 'Dancing Script', cursive;
+}
+
+.contenido__producto{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-left: 6px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 19px;
+}
+
+.contenido__producto li::before{
+    content: attr(data-icon);
+    font-size: 15px;
+}
+
+.section__article{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px;
+    background-color: rgba(228, 217, 255, 0.588)/*rgba(68, 17, 134, 0.4)*/;
+    border: 2px solid rgba(236, 109, 236, 0.486);
+    border-radius: 5px;
+    /*width: 30%;*/
+}
+
+.section__article h2{
+    text-align: center;
+    font-family: 'Koulen', cursive;
+    color: #7e6ea5;
+}
+
+.section__article img{
+    display: flex;
+    align-self: center;
+    border-radius: 5px;
+    width: 80%;
+}
+
+
+.comentario{
+    text-align: center;
+    margin-bottom: 5px;
+    font-family: 'Overpass', sans-serif;
+    font-size: 20px;
+
+}
+
+.extra{
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.precio{
+    text-align: center;
+    font-family: 'Overpass', sans-serif;
+    font-size: 30px;
+    margin: 6px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    
+}
+
+/* Footer estilos */
+
+footer{
+    display: flex;
+    align-items: center;
+    align-content:center;
+    background-color: #a0a7bdf5;
+}
+
+.footer__parrafo{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    color: #e4f2ffb6;
+}
+
+
+
+#footerImg{
+    margin-left: 8.5%;
+}
+
+/* media queries */
+
+@media screen and (max-width: 768px) {
+    main{
+        grid-template-columns: 1fr;
+        grid-template-rows: 3fr 3fr 3fr;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    main{
+        grid-template-columns: 2fr 2fr;
+        grid-template-rows: 2fr 2fr;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    main{
+        grid-template-columns: 2fr 2fr 2fr;
+    }
+}

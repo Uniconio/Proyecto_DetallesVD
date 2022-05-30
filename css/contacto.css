@@ -1,0 +1,83 @@
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* Fonts */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+/*header estilos*/
+
+header{
+    display: flex;
+    background-color: #b5bcd3d0;
+}
+
+nav{
+    width: 100%;
+    text-align: center;
+}
+
+.header{
+    display: flex;
+    justify-content:space-around;
+    align-items:flex-end;
+    align-content: center;
+    list-style: none;
+    font-family: 'Lobster Two', cursive;
+    margin-bottom: 0.2%;
+    font-size: 20px;
+}
+
+.header__enlace{
+    text-decoration: none;
+    color: #E9F1F7;
+    
+}
+
+
+/* Contenido de la pagina */
+
+body{
+    background-color: #D8E1FF;
+}
+
+h1{
+    text-align: center;
+    margin-top: 2%;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+
+/* Footer estilos */
+
+footer{
+    display: flex;
+    align-items: center;
+    align-content:center;
+    background-color: #a0a7bdf5;
+}
+
+.footer__parrafo{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    color: #e4f2ffb6;
+}
+
+
+
+#footerImg{
+    margin-left: 8.5%;
+}
