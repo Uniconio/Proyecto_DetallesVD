@@ -6,28 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../img/Logo2.svg" type="image/x-icon">
     <link rel="stylesheet" href="../css/productos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
 
     <title>¡Nuestros Productos!</title>
 </head>
-<body>
+<body id="body" class="body" >
     <!--HEADER DE LA PAGINA-->
     <header>
         <nav>
-            <ul class="header">
-                <li><a class="header__enlace" href="./nosotros.html">Nosotros</a></li>
-                <li><a class="header__enlace" href="./contacto.html">Contacto</a></li>
-                <li><a class="header__enlace" id="imgHeader" href="../index.html"><img class="logo" src="../img/Logo2.svg" alt="Detalles VD"></a></li>
-                <li><a class="header__enlace" href="./ubicacion.html">Ubicacion</a></li>
-                <li><a class="header__enlace" href="./productos.html">Productos</a></li>
+            <ul id="header-nav" class="header">
+                <li><a id="enlace_header" class="header__enlace" href="./nosotros.html">Nosotros</a></li>
+                <li><a id="enlace_header" class="header__enlace" href="./contacto.html">Contacto</a></li>
+                <li><a id="enlace_header" class="header__enlace" id="imgHeader" href="../index.html"><img class="logo" src="../img/Logo2.svg" alt="Detalles VD"></a></li>
+                <li><a id="enlace_header" class="header__enlace" href="./ubicacion.html">Ubicacion</a></li>
+                <li><a id="enlace_header" class="header__enlace" href="./productos.html">Productos</a></li>
             </ul>
         </nav>
     </header>
 
     <!--TITULO-->
     <h1>¡Nuestros Productos!</h1>
+    
 
     <main>
-        <section class="section">
+        <section class="shadow mb-5 rounded section">
+            <article class="section__article">
+                <h2>🎁CAJA SORPRESA🎁</h2>
+                <img src="../img/cajaSorpresaImg.jpg" alt="caja blanca con lazo rojo">
+                <span class="precio">$1000</span>
+                <p class="comentario">¡Miren lo delicada y linda que es esta caja!  
+                    🤔¿Que contiene?🤔  </p>
+                <ul role="list" class="contenido__producto">
+                    <li data-icon="☕">Taza personalizada</li>
+                    <li data-icon="📸">3 fotos</li>
+                    <li data-icon="💟">Stikers</li>
+                    <li data-icon="🤎">Bombones</li>
+                    <li data-icon="🎀">Lazo Rojo</li>
+                </ul>
+
+                <p class="extra">No olvides pedirnos con anticipación las cajas,
+                    hace tu pedido para esa personita especial y dale una alegria con este 
+                    detallito VD 🦋</p>
+            </article>
+        </section>
+
+        <section class="shadow mb-5 rounded section">
             <article class="section__article">
                 <h2>🎁CAJA SORPRESA🎁</h2>
                 <img src="../img/cajaSorpresaImg.jpg" alt="caja blanca con lazo rojo">
@@ -48,28 +72,7 @@
             </article>
         </section>
 
-        <section class="section">
-            <article class="section__article">
-                <h2>🎁CAJA SORPRESA🎁</h2>
-                <img src="../img/cajaSorpresaImg.jpg" alt="caja blanca con lazo rojo">
-                <span class="precio">$1000</span>
-                <p class="comentario">¡Miren lo delicada y linda que es esta caja!
-                    🤔¿Que contiene?🤔  </p>
-                <ul role="list" class="contenido__producto">
-                    <li data-icon="☕">Taza personalizada</li>
-                    <li data-icon="📸">3 fotos</li>
-                    <li data-icon="💟">Stikers</li>
-                    <li data-icon="🤎">Bombones</li>
-                    <li data-icon="🎀">Lazo Rojo</li>
-                </ul>
-
-                <p class="extra">No olvides pedirnos con anticipación las cajas,
-                    hace tu pedido para esa personita especial y dale una alegria con este 
-                    detallito VD 🦋</p>
-            </article>
-        </section>
-
-        <section class="section">
+        <section class="shadow mb-5 rounded section">
             <article class="section__article">
                 <h2>🎁CAJA SORPRESA🎁</h2>
                 <img src="../img/cajaSorpresaImg.jpg" alt="caja blanca con lazo rojo">
@@ -102,6 +105,6 @@
         <img id="footerImg" src="../img/logoSlogan_00001.svg" alt="imagen">
         
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
