@@ -1,61 +1,4 @@
 
-/* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-/* Fonts */
-
-*{
-    margin: 0px;
-    padding: 0px;
-}
-
-
-
-/*header estilos*/
-
-header{
-    display: flex;
-    background-color: #d1afec42;
-}
-
-nav{
-    width: 100%;
-    text-align: center;
-}
-
-.header{
-    display: flex;
-    justify-content:space-around;
-    align-items:flex-end;
-    align-content: center;
-    list-style: none;
-    font-family: 'Lobster Two', cursive;
-    margin-bottom: 0.2%;
-    font-size: 20px;
-}
-
-.header__enlace{
-    text-decoration: none;
-    color: #c9a7cf;
-    transition: all .3s ease-in-out;
-    border-bottom: 3px solid #b5bcd300;
-}
-
-.header__enlace:hover{
-    border-bottom: 3px solid #bda0bc94;
-    
-}
-
-/* Contenido de la pagina */
-
-
-h1{
-    text-align: center;
-    margin-top: 2%;
-    font-family: 'Dancing Script', cursive;
-}
 
 .Info{
     width: 85%;
@@ -83,33 +26,6 @@ h1{
 
 #productos{
     grid-column: 2 / 3;
-}
-
-body{
-    background-color: #e7d9f3;
-    
-}
-
-
-/* Footer estilos */
-
-footer{
-    display: flex;
-    align-items: center;
-    align-content:center;
-    background-color: #a0a7bdf5;
-}
-
-.footer__parrafo{
-    display: flex;
-    font-family: 'Roboto', sans-serif;
-    color: #e4f2ffb6;
-}
-
-
-
-#footerImg{
-    margin-left: 8.5%;
 }
 
 /* Media queries */

@@ -8,7 +8,7 @@
     flex-direction: column;
 }
 
-.contenedor>article{
+.contactonCont{
     background-color: rgba(228, 217, 255, 0.588)/*rgba(68, 17, 134, 0.4)*/;
     border: 2px solid rgba(236, 109, 236, 0.233);
     border-radius: 4px;
@@ -17,7 +17,7 @@
     padding: 1%;
 }
 
-article>h2 {
+.contactonCont>h2 {
     color: rgba(147, 105, 158, 0.918);
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
@@ -28,4 +28,3 @@ article>h2 {
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
 }
-
