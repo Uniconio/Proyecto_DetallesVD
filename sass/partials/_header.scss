@@ -2,17 +2,14 @@
 
 header{
     display: flex;
-    background-color: #d1afec42;
+    background-color: map-get($colores , fondo);
 }
 
 nav{
     width: 100%;
     text-align: center;
     .header{
-        display: flex;
-        justify-content:space-around;
-        align-items:flex-end;
-        align-content: center;
+        @include flex(space-around, flex-end, center);
         list-style: none;
         font-family: 'Lobster Two', cursive;
         margin-bottom: 0.2%;

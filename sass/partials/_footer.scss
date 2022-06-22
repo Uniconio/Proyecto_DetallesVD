@@ -1,9 +1,7 @@
 /* Footer */
 
 .footer{
-    display: flex;
-    align-items: center;
-    align-content:center;
+    @include flex(none, center, center);
     background-color: #a0a7bdf5;
 }
 

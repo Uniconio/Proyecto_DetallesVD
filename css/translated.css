@@ -51,6 +51,7 @@ nav {
 /* Footer */
 .footer {
   display: flex;
+  justify-content: none;
   align-items: center;
   align-content: center;
   background-color: #a0a7bdf5; }
@@ -84,10 +85,19 @@ nav {
   font-size: 20px;
   font-family: 'Poppins', sans-serif; }
 
-.parrafo {
+.parrafo, .parrafo--link {
   color: rgba(187, 165, 192, 0.918);
   font-size: 16px;
   font-family: 'Montserrat', sans-serif; }
+
+.parrafo--link {
+  text-decoration: none;
+  color: #c9a7cf;
+  transition: all .2s ease-in-out;
+  border-bottom: 3px solid #b5bcd300; }
+  .parrafo--link:hover {
+    border-bottom: 2px solid rgba(195, 117, 195, 0.537);
+    border-radius: 2%; }
 
 /* Fonts
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
