@@ -12,7 +12,8 @@
 /* Misc */
 * {
   margin: 0px;
-  padding: 0px; }
+  padding: 0px;
+  text-decoration: none; }
 
 h1 {
   text-align: center;
