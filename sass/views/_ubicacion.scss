@@ -1,7 +1,32 @@
-/* Contenido de la pagina */
+/* Contenido de Ubicacion */
+
 
 .contenedor{
     width: 85%;
     max-width: 1280px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.ubicacionCont{
+    background-color: rgba(228, 217, 255, 0.588)/*rgba(68, 17, 134, 0.4)*/;
+    border: 2px solid rgba(236, 109, 236, 0.233);
+    border-radius: 4px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 1%;
+
+
+  &>h2 {
+    color: rgba(147, 105, 158, 0.918);
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    }
+}
+
+.parrafo{
+    color: rgba(187, 165, 192, 0.918);
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
 }

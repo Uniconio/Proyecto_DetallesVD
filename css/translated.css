@@ -56,16 +56,16 @@ nav {
   align-items: center;
   align-content: center;
   background-color: #a0a7bdf5; }
-
-.footer__parrafo {
-  display: flex;
-  font-family: 'Roboto', sans-serif;
-  color: #e4f2ffb6; }
+  .footer__parrafo {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    color: #e4f2ffb6; }
 
 #footerImg {
   margin-left: 8.5%; }
 
 /* Views */
+/* Contenido de Contacto */
 .contenedor {
   width: 85%;
   max-width: 1280px;
@@ -73,44 +73,32 @@ nav {
   display: flex;
   flex-direction: column; }
 
-.contactonCont {
+.contactoCont {
   background-color: rgba(228, 217, 255, 0.588);
   border: 2px solid rgba(236, 109, 236, 0.233);
   border-radius: 4px;
   margin-top: 2%;
   margin-bottom: 2%;
   padding: 1%; }
-
-.contactonCont > h2 {
-  color: rgba(147, 105, 158, 0.918);
-  font-size: 20px;
-  font-family: 'Poppins', sans-serif; }
+  .contactoCont > h2 {
+    color: rgba(147, 105, 158, 0.918);
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif; }
 
 .parrafo, .parrafo--link {
   color: rgba(187, 165, 192, 0.918);
   font-size: 16px;
   font-family: 'Montserrat', sans-serif; }
+  .parrafo--link {
+    text-decoration: none;
+    color: #c9a7cf;
+    transition: all .2s ease-in-out;
+    border-bottom: 3px solid #b5bcd300; }
+    .parrafo--link:hover {
+      border-bottom: 2px solid rgba(195, 117, 195, 0.537);
+      border-radius: 2%; }
 
-.parrafo--link {
-  text-decoration: none;
-  color: #c9a7cf;
-  transition: all .2s ease-in-out;
-  border-bottom: 3px solid #b5bcd300; }
-  .parrafo--link:hover {
-    border-bottom: 2px solid rgba(195, 117, 195, 0.537);
-    border-radius: 2%; }
-
-/* Fonts
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-Fonts
- */
-/* Contenido de la pagina */
-body {
-  background-color: #e7d9f3; }
-
+/* Contenido del Home */
 h1 {
   text-align: center;
   margin-top: 2%;
@@ -142,11 +130,31 @@ h1 {
   .header {
     font-size: 17px; } }
 
+/* Contenido de Nosotros */
 .contenedor {
   width: 85%;
   max-width: 1280px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column; }
 
+.nosotrosCont {
+  background-color: rgba(218, 167, 223, 0.062);
+  border-bottom: 2px solid rgba(236, 109, 236, 0.233);
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: 1%; }
+  .nosotrosCont > h2 {
+    color: rgba(147, 105, 158, 0.918);
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif; }
+
+.parrafo, .parrafo--link {
+  color: rgba(187, 165, 192, 0.918);
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif; }
+
+/* Contenido de Productos */
 main {
   display: grid;
   grid-template-columns: 2fr 2fr 2fr; }
@@ -157,9 +165,9 @@ main {
     margin-left: 6px;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 19px; }
-  main .contenido__producto li::before {
-    content: attr(data-icon);
-    font-size: 15px; }
+    main .contenido__producto li::before {
+      content: attr(data-icon);
+      font-size: 15px; }
   main .section__article {
     display: flex;
     flex-direction: column;
@@ -169,17 +177,17 @@ main {
     border: 2px solid rgba(236, 109, 236, 0.486);
     border-radius: 5px;
     transition: all .2s ease-in-out; }
-  main .section__article:hover {
-    transform: scale(1.02); }
-  main .section__article h2 {
-    text-align: center;
-    font-family: 'Koulen', cursive;
-    color: #7e6ea5; }
-  main .section__article img {
-    display: flex;
-    align-self: center;
-    border-radius: 5px;
-    width: 80%; }
+    main .section__article:hover {
+      transform: scale(1.02); }
+    main .section__article h2 {
+      text-align: center;
+      font-family: 'Koulen', cursive;
+      color: #7e6ea5; }
+    main .section__article img {
+      display: flex;
+      align-self: center;
+      border-radius: 5px;
+      width: 80%; }
   main .comentario {
     text-align: center;
     margin-bottom: 5px;
@@ -194,8 +202,27 @@ main {
     font-size: 30px;
     margin: 6px; }
 
-/* Contenido de la pagina */
+/* Contenido de Ubicacion */
 .contenedor {
   width: 85%;
   max-width: 1280px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column; }
+
+.ubicacionCont {
+  background-color: rgba(228, 217, 255, 0.588);
+  border: 2px solid rgba(236, 109, 236, 0.233);
+  border-radius: 4px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: 1%; }
+  .ubicacionCont > h2 {
+    color: rgba(147, 105, 158, 0.918);
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif; }
+
+.parrafo, .parrafo--link {
+  color: rgba(187, 165, 192, 0.918);
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif; }

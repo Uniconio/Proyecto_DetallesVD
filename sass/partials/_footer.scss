@@ -3,12 +3,13 @@
 .footer{
     @include flex(none, center, center);
     background-color: #a0a7bdf5;
-}
 
-.footer__parrafo{
-    display: flex;
-    font-family: 'Roboto', sans-serif;
-    color: #e4f2ffb6;
+
+    &__parrafo{
+        display: flex;
+        font-family: 'Roboto', sans-serif;
+        color: #e4f2ffb6;
+    }
 }
 
 
